@@ -1,5 +1,5 @@
+import Home from "@/pages/home";
 import Root from "@/pages/root";
-import Home from "../../pages/home";
 
 export const ROUTES = [
   {
