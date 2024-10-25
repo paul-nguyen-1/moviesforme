@@ -1,13 +1,13 @@
 import Root from "@/pages/root";
-import Home from "../../pages/Home";
+import Home from "../../pages/home";
 
 export const ROUTES = [
   {
-    path: "/home",
-    element: <Home />,
-  },
-  {
     path: "/",
     element: <Root />,
+  },
+  {
+    path: "/home",
+    element: <Home />,
   },
 ];
