@@ -23,8 +23,10 @@ export function Home() {
   return (
     <div className="min-h-screen bg-zinc-700 flex flex-col justify-center items-center">
       <img src={logo} className="h-12" />
-      <h1>Made for you.</h1>
-      <h2>Free access to Movies and TV shows you love.</h2>
+      <h1 className="font-mono">Made for you.</h1>
+      <h2 className="font-mono">
+        Free access to Movies and TV shows you love.
+      </h2>
       <div className="flex flex-row gap-5 items-end">
         <div className="w-56 mt-5">
           <ComboBox
